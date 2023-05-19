@@ -1,0 +1,71 @@
+:root {
+    --logo-font: 'Prata', serif;
+    --main-bg-color: #ddd0c8;
+    --main-color: #323232;
+    --font-size:18px;
+
+}
+body {
+    font-family: 'cairo',sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-size: var(--font-size);
+    
+}
+
+/* Componentes */
+
+.logo-font {
+    font-family: var(--logo-font);
+}
+
+/* Buttom */
+.buttom {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+.buttom:hover {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+.dropdown-menu a {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+.dropdown-menu {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+/* End Buttom */
+.instagram {
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+}
+.whatsapp {
+    background: linear-gradient(to bottom, #25D366, #128C7E);; 
+}
+.facebook {
+    background: linear-gradient(to bottom, #3b5998, #2f4b8f);
+}
+
+
+/* End Componentes */
+
+
+/* slider */
+.carousel > .carousel-inner > .carousel-item > img{
+    width:240px; /* Yeap you can change the width and height*/
+    height:160px;
+}
+
+
+/* end slider */
+
+footer {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    /* position:fixed;
+    left:0px;
+    bottom:0px;
+    width: 100%; */
+}
